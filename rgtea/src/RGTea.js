@@ -12,7 +12,7 @@ export default function RGTeaWebsite() {
         product: '',
         quantity: '',
         message: ''
-    });
+    }); 
 
     const [activeCategory, setActiveCategory] = useState('retail');
     const [showModal, setShowModal] = useState(false);
